@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Listas e Links</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			* {
+				box-sizing: border-box;
+
+			}
+
+			body {
+				font-family: Arial, Helvetica, sans-serif;
+				background-color: #b4b6b7c4;
+			}
+
+			h1, h2 p, li {
+				font-family: Arial, Helvetica, sans-serif;
+				color: #454545;
+			}
+
+			.column {
+			  float: left;
+			  padding: 15px;
+			}
+
+			.clearfix::after {
+			  content: "";
+			  clear: both;
+			  display: table;
+			}
+
+			.menu {
+			  width: 108%;
+			}
+
+			.content {
+			  width: 75%;
+			}
+
+			.menu ul {
+			  list-style-type: none;
+			  margin: 0;
+			  padding: 0;
+			}
+
+			.menu li {
+			  padding: 8px;
+			  margin-bottom: 6px;
+			  background-color: #33b5e5;
+			  color: #ffffff;
+			}
+
+			.menu li:hover {
+			  background-color: #0099cc;
+			}
+
+
+			a {
+				color: #7f664f;
+				text-decoration: none;
+			}
+
+			header {
+				background-color: #666;
+				padding: 35px;
+				text-align: center;
+				font-size: 35px;
+				color: white;
+				border-bottom-left-radius: 80%;
+				border-bottom-right-radius: 80%;
+			}
+
+
+			nav {
+				width: 18%;
+				   
+				background: #49728e;
+				padding: 0px;
+				border-top-right-radius: 10%;
+			}
+
+
+			nav ul {
+				list-style-type: none;
+				padding: 8px;
+			}
+
+			article {
+				float: left;
+				padding: 20px;
+				width: 65%;
+			}
+
+
+			section::after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+
+			footer {
+				background-color: #49728e;
+				padding: 10px;
+				text-align: center;
+				color: #000000;
+			}
+
+		</style>
+	</head>
+	<body>
+		<h1>Listas e Links</h1>
+
+		<h2 id="lista-nao-ordenada">Lista não ordenada</h2>
+			
+		<ul>
+			<li>
+				Brasil
+				<ul>
+					<li>São Paulo</li>
+						<ol>
+							<li>São Paulo</li>
+						</ol>
+					</li>
+					<li>Rio de Janeiro</li>
+					<li>Minas Gerais</li>
+					<li>Pará
+						<ul>
+							<li>Belém</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>Argentina</li>
+			<li>Uruguai</li>
+			<li>Paraguai</li>
+		</ul>
+			<h2>Lista ordenada</h2>
+				<ol>
+					<li>Corinthians</li>
+					<li>Palmeiras</li>
+					<li>Santos</li>
+					<li>São Paulo</li>
+				</ol>
+			
+			<h2>Lista de Definições</h2>		
+				<dl>
+				<dt>TV</dt>
+					<dd>32 polegadas, smart, ...</dd>
+					<dd>127 volts</dd>
+				<dt>PC</dt>
+					<dd>USB, 19 polegadas, Core I5</dd>
+				</dl>
+			
+		<nav>
+			<div class="header">
+					<h2>Links</h2>
+			</div>
+
+			<div>
+				<div class="clearfix">
+					<ul class="column menu">
+						<li><a href="https://ebaconline.com.br">EBAC</a></li>
+						<li><a href="#top">Voltar ao topo</a> </li>
+						<li><a href="#lista-nao-ordenada">Ver a lista não ordenada</a></li>
+						<li><a href="homepage.html">Voltar ao homepage</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<footer>
+			<p>Desenvolvido por Lorran Rodrigues</p>
+		</footer>
+
+	</body>
+</html>
