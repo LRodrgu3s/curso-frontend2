@@ -28,6 +28,7 @@ https://git-scm.com/
  - Após testado todo seu código
  - git add *
  - git commit -m'mensagem'
+ - git push (enviar alterações para repositorio)
 
  ## GitFlow
  Fluxo do Git
