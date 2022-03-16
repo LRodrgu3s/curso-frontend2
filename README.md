@@ -47,4 +47,16 @@ https://git-scm.com/
 
  ### Merge
  mescla de brachs
+ você pode precisar resover conflitos manualmnte
+
+ git merge main
+
+ ### Pull Requests
+ Mescla de branch no repositorio
+ permite code review
+ O repositorio resolve os conflitos automaticamente
+
+ ## configurar o GitFlow
+ git flot init 
+ git floe feature start {nome-da-feature}
  
